@@ -11,7 +11,7 @@ As the world adopts more advanced tracking technology, we aren't just getting mo
 This project takes raw, messy global earthquake data, cleans it using fundamental data science statistics, stores it securely inside a MySQL relational database, and visualizes live trends through an interactive Streamlit web dashboard.
 
 🛠️ Tools Used & Their Roles
-Google Colab & Jupiter 
+Google Colab & Jupiter & Anaconda navigator
 VS Code (Visual Studio Code)
 MySQL & MySQL Workbench
 GitHub
@@ -45,8 +45,9 @@ Disaster Management Impact: By converting messy raw date strings and deep kilome
 
 📖 How to Navigate and Approach This Repository
 Repository File Checklist
-EQ_Project_2.py: The core backend script and frontend Streamlit application code.
-EarthQuakes.sql: The database backup file containing your baseline earthquake structure.
+EQ_Project_1.py: use core analytics and sql connection
+EQ_Project_2.py: The core backend script queries and frontend Streamlit application code.
+
 
 How to Run and Test This Project
 Prepare the Database: Import EarthQuakes.sql into your local MySQL Workbench and ensure your connection credentials match.
